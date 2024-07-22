@@ -36,6 +36,7 @@
 | [A Few More Plushies](https://modrinth.com/mod/afmp) | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | 🟥 | ✅ Рус. | ⬛ |
 | [Additional Additions](https://modrinth.com/mod/addadd) | ⬛ | ⬛ | ⬛ | 🟥 | ✅ Рус.<br>✅ Тат. | ✅ Рус.<br>✅ Тат. | ✅ Рус. | 🟥 |
 | [Adorn](https://modrinth.com/mod/adorn) | ⬛ | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 |
+| [Aerlune RPG](https://www.curseforge.com/minecraft/mc-mods/aerlune-rpg) | - | - | - | - | - | - | 🟥 | - |
 | [AIOT Botania](https://www.curseforge.com/minecraft/mc-mods/aiot-botania)| ⬛ | ✅ Рус. | ✅ Рус. | ⬛ | ✅ Рус. | ✅ Рус. | ✅ Рус. | ⬛ |
 | [Alex's Caves](https://modrinth.com/mod/alexs-caves) | ⬛ | 🟥 | ⬛ | ⬛ | ⬛ | ⬛ | 🟥 | ⬛ |
 | [Alex's Mobs](https://modrinth.com/mod/alexs-mobs) | ⬛ | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ⬛ |
@@ -69,7 +70,7 @@
 | [Classic Steam Dynamo](https://www.curseforge.com/minecraft/mc-mods/steam-dynamo) | ⬛ | 🟥 | ⬛ | ⬛ | ⬛ | ⬛ | ✅ Рус. | ⬛
 | [Clear Despawn](https://modrinth.com/mod/cleardespawn) | ⬛ | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | ⬛
 | [Cloth Config API](https://modrinth.com/mod/cloth-config) | 🟥 | 🟥 | 🟥 | ✅ Рус. | 🟥 | 🟥 | 🟥 | ✅ Рус. |
-| [Cobblemon](https://modrinth.com/mod/cobblemon) | ⬛ | 🟥 | ⬛ | ⬛ | ⬛ | ⬛ | 🟥 | ⬛ |
+| [Cobblemon](https://modrinth.com/mod/cobblemon) | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | 🟥 | ⬛ |
 | [ComputerCraft](https://modrinth.com/mod/computercraft)  | 🟥 | 🟥 | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ |
 | [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | 🟥 | 🟥 | 🟥 |
 | [Continuity](https://modrinth.com/mod/continuity) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥
@@ -87,6 +88,7 @@
 | [Dynamic FPS](https://modrinth.com/mod/dynamic-fps) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | ✅ Рус. |
 | [e4mc](https://modrinth.com/mod/e4mc) | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус.<br>✅ Укр. | ✅ Рус.<br>✅ Укр. | ✅ Рус.<br>✅ Укр. | ✅ Рус.<br>✅ Укр. |
 | [Embeddium++](https://modrinth.com/mod/embeddiumplus) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥
+| [EmbeddiumUI](https://modrinth.com/mod/embyui) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | 🟥 |
 | [EMI](https://modrinth.com/mod/emi) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥
 | [Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | 🟥 | 🟥 | 🟥 |
 | [Endless Music](https://modrinth.com/mod/endless-music) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. |
@@ -173,7 +175,8 @@
 | [Redstone Clock](https://www.curseforge.com/minecraft/mc-mods/redstone-clock) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус.
 | [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥
 | [Regions Unexplored](https://modrinth.com/mod/regions-unexplored) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥
-| [Respackopts](https://modrinth.com/mod/respackopts) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус.
+| [ReplayMod](https://modrinth.com/mod/replaymod) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 |
+| [Respackopts](https://modrinth.com/mod/respackopts) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | 🟥 |
 | [Ribbits](https://modrinth.com/mod/ribbits) | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | ✅ Рус. | ⬛
 | [Right Proper Lighting Engine](https://modrinth.com/mod/rple) | ✅ Рус. | 🟥 | ⬛ | ⬛ | ⬛ | ⬛ | ⬛ | ⬛
 | [Rotten Creatures](https://modrinth.com/mod/rottencreatures) | 🟥 | 🟥 | 🟥 | 🟥 | 🟥 | ✅ Рус. | ✅ Рус. | 🟥
