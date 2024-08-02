@@ -608,7 +608,7 @@
 			description: [
 				"Вам понадобится различные &aлинзы&r для работы в &3точечном лазерном гравировщике&r, все которые делаются на &2токарном станке&r."
 				""
-				"По началу достаточно &3рубиновая линзы&r. Позже понадобятся &3алмазная, эмеральдная, топазовая и сапфировая линза&r. &2С помощью СН токарного станка линзы можно сделать из пластины, либо просеивать ради безупречного камня и использовать станок НН.&r"
+				"По началу достаточно &3рубиновой линзы&r. Позже понадобятся &3алмазная, эмеральдная, топазовая и саппфировая линзы&r. &2С помощью СН токарного станка линзы можно сделать из пластины, либо просеивать ради безупречного камня и использовать станок НН.&r"
 			]
 			icon: "gtceu:ruby_lens"
 			id: "21B917932F5B25BA"
@@ -999,13 +999,13 @@
 		{
 			dependencies: ["2C6BEB5BBE5A91DC"]
 			description: [
-				"The &2MV Assembling Machine&r allows you to craft &6Medium Voltage Coils&r, and your &3Precision Laser Engraver&r can make &2Ultra Low Power ICs with a Sapphire Lens.&r"
+				"&2Сборочная машина СН&r позволяет создать &6катушки среднего напряжения&r, а &3точечный лазерный гравировщик&r способен гравировать &2сверхнизковольтажные IC через саппфировую лизну&r."
 				""
-				"Combine them with some MV parts and you can finally craft an &6MV Energy Hatch&r."
+				"Собрав это и несколько деталей СН вместе можно наконец-то создать &6энергетический входной разъём СН&r."
 				""
-				"Higher tiers of energy hatch will require similar resources."
+				"Более высокие уровни разъёмов требуют похожие детали."
 				""
-				"Note: For extracting energy from GT multiblock generators, you will need &6Dynamo Hatches&r instead. Those are crafted similarly to Energy Hatches, but with &6Springs&r in place of 1x Cables."
+				"Учтите: для сбора энергии из многоблочных генераторов GregTech вам понадобится &6выходной разъём&r. Они создаются схожим способом как и входные разъёмы, но на место кабеля нужны &6пружины&r."
 			]
 			id: "785300684B1846B2"
 			rewards: [{
@@ -1020,7 +1020,7 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			title: "&2MV Energy Hatches"
+			title: "&2Входной разъём СН"
 			x: 1.0d
 			y: 10.0d
 		}
@@ -1049,13 +1049,13 @@
 				"2C6BEB5BBE5A91DC"
 			]
 			description: [
-				"Time to upgrade your &3Electric Blast Furnace&r! &6Kanthal&r is the second coil material available, increasing your EBF's operating temperature to 2700K so it can process more advanced materials."
+				"Пришло время улучшать &3электрическую доменную печь&r! &6Кантал&r — второй материал доступный для катушек, увеличивая рабочую температуру ЭДП до 2700К, позволяя ей работать с более продвинутыми материалами."
 				""
-				"&6Kanthal Coils&r are required primarily for producing &6Silicon&r, required for Circuit parts, and &6Titanium&r, used for &5EV&r machines. An &bMV &3Assembler&r is required to produce them, and they require &62x Kanthal Wire&r, &6Aluminium Foil&r, and &9Copper fluid&r."
+				"&6Канталовые катушки&r нужны для создания &6кремния&r, который нужен для деталей схем, и &6титана&r, который нужен для машин &5ЭН&r. &3Сборщик &bСН&r способен их создать. На каждую катушку необходимо &62х канталовых провода&r, &6алюминиевая фольга&r и &9жидкая медь&r."
 				""
-				"&2In CEu, using higher-tier coils provides some bonuses to their multiblocks.&r For the &3Electric Blast Furnace&r, running recipes hotter than required can reduce the energy cost and time taken. The &9temperature&r of the EBF depends on the coil used and the voltage it is running at. For Kanthal Coils, this means that recipes you could run with &6Cupronickel Coils&r will save &95%%&r energy."
+				"&2В CEu использование катушек уровнями выше поощеряется бонусами для некоторых многоблоков.&r Если в &3электрической доменной печи&r плавить температурой выше, чем указано в рецепте, но снижается время и энергопотребление на операцию. &9Температура&r ЭДП зависит от катушек и рабочего напряжения. В случае с канталовыми катушками это значит, что рецепты &6купроникеливых катушек&r экономят &95%&r энергии."
 				""
-				"Refer to the coil tooltip and EBF controller tooltip for the other bonuses provided."
+				"Сверьтесь со всплывающей подсказкой на катушках и контроллере ЭДП для большей информации о других бонусах."
 			]
 			id: "5C78349343BA40D7"
 			rewards: [{
@@ -1070,6 +1070,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
+			title: "16 канталовых катушек"
 			x: -1.0d
 			y: 12.0d
 		}
@@ -1159,7 +1160,7 @@
 		}
 		{
 			dependencies: ["500E619D568C07C2"]
-			description: ["&6Annealed Copper&r is made &2in an Arc Furnace&r by treating &6Copper&r with &9Oxygen&r. It has less power loss than regular Copper when used as a cable, and is also required for more advanced electronic components."]
+			description: ["&6Отожённая медь&r создаётся в &2дуговой печи&r путём обжига &6меди&r &9кислородом&r. Если использовать как кабель, то у неё меньше потери в сравнении с обычной медью, а также она требуется для продвинутых электронных компонентов."]
 			id: "6C8DE5DC18CDADF0"
 			rewards: [{
 				id: "613E0382FE4BD7E8"
@@ -1173,7 +1174,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			title: "Annealed Copper"
+			title: "Отожжённая медь"
 			x: 0.9375d
 			y: 12.9375d
 		}
@@ -1283,11 +1284,11 @@
 		{
 			dependencies: ["153BDCAE4D1CC407"]
 			description: [
-				"&9Polyethylene (PE)&r is the most common category of plastic, made from polymers of &9Ethylene&r. Adding &9Oxygen&r in a &3Chemical Reactor&r recreates (with some artistic license) early accidental synthesis of Polyethylene."
+				"&9Полиэтилен (ПЭ)&r — самый распространённый пластик, создаваемый из полимеров &9этилена&r. С добавлением &9кислорода&r в &3химическом реакторе&r воссоздаётся (с небольшой художественной ноткой) ранний случайный синтез полиэтилена."
 				""
-				"When you have large amounts of &6Rutile&r and &6Bauxite&r (probably after you visit the Moon) you can consider using &9Titanium Tetrachloride&r as a catalyst to improve your Polyethylene yields. For now it's not a great idea, as in addition to its Overworld rarity, you need it for &6Titanium&r."
+				"Когда у вас будут большие запасы &6рутила&r и &6боксита&r (вероятно, после путешествия на Луну) вы сможете рассмотреть вариант добавления &9тетрахлорида титана&r как каталиста для увеличения выхода полиэтилена. Но пока это не лучшая идея, учитывая его редкость в Обычном мире, он вам понадобится для &6титана&r."
 				""
-				"Form &6Polyethylene Sheets&r using a &3Fluid Solidifier&r and a &aPlate Mold&r for use in crafting electronics components. You'll need both the liquid and the sheets. For &9Polyethylene (PE)&r pipes, you can either pulverise your sheets into dust and use those in the extruder, or solidify &9Polyethylene (PE)&r into &6Polyethylene Bars&r seperately."
+				"С помощью &3жидкостного отвердителя&r и &aформы пластины&r отлейте &6полиэтиленовые пластины&r для создания электронных компонентов. Вам понадобятся оба жидкость и пластины. Для &9полиэтиленовых (ПЭ)&r труб пластины можно раскрошить в пыль и отправить её в экструдер или отлить &9полиэтилен (ПЭ)&r в &6слитки полиэтилена&r отдельно."
 			]
 			id: "417D97D9E3562F45"
 			rewards: [{
@@ -1301,7 +1302,7 @@
 				item: "gtceu:polyethylene_plate"
 				type: "item"
 			}]
-			title: "Polyethylene"
+			title: "Полиэтилен"
 			x: 3.0d
 			y: 21.0d
 		}
@@ -1510,15 +1511,15 @@
 				"10722CBC4DAD28F4"
 			]
 			description: [
-				"&9Vinyl Chloride&r is an industrial chemical made from chlorinating &9Ethylene&r (adding &9Chlorine&r at high temperature) in a &3Chemical Reactor&r. &9Ethane&r can be used as an alternative reagent."
+				"&9Винил хлорид&r — это индустриальных химикат созданных путёл хлорирования &9этилена&r (добавление &9хлора&r при высокой температуры) в &3химическом реакторе&r. &9Этан&r может быть использован как альтернативный реагент."
 				""
-				"It is used to create the plastic &9Polyvinyl Chloride&r, most well known as PVC. While it deviates from reality, in GregTech you chemically react Vinyl Chloride and &9Oxygen&r to polymerize it into PVC. "
+				"Он нужен для создания пластика &9поливинил хлорида&r, также известного как ПВХ. Хоть это немного отстраняется от реальности, в GregTech винил хлорид химически реагирует с &9кислородом&r для полимеризации в ПВХ."
 				""
-				"Later, you can use &9Titanium Tetrachloride&r to catalyze this reaction as well for greater yield."
+				"Позже можно будет использовать &9тетрахлорид титана&r для катализации реакции и увеличения выхода."
 				""
-				"You'll only need to solidify this into sheet form. If you want PVC pipes too, you can pulverise the sheet into dust and use that in the extruder, or you can solidify it into bars seperately."
+				"В основном вам нужно лишь отлить в форму пластины. Для труб из &9ПВХ&r пластины можно раскрошить в пыль и отправить её в экструдер или отлить &9поливинил хлорид (ПВХ)&r в &6слитки ПВХ&r отдельно."
 				""
-				"&6PVC Sheets&r are superior to &6Polyethylene Sheets&r for making plastic substrates, producing twice as many &6Plastic Boards&r per craft."
+				"&6Пластины из ПВХ&r превосходят &6пластины из полиэтилена&r в создании пластиковых печатных плат, создавая вдвое больше &6пластиковых подложек&r за операцию. "
 			]
 			id: "338ED53463203472"
 			rewards: [{
@@ -1532,7 +1533,7 @@
 				item: "gtceu:polyvinyl_chloride_plate"
 				type: "item"
 			}]
-			title: "Polyvinyl Chloride"
+			title: "Поливинил хлорид"
 			x: 14.5d
 			y: 21.0d
 		}
@@ -1544,13 +1545,14 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&9Ethylene&r is a hydrocarbon obtained from &9Oil Processing&r, or by dehydrating &9Ethanol&r with &9Sulfuric Acid&r in a &3Chemical Reactor&r. Choose a method that works for you:"
+				"&9Этилен&r это углеводород, получаемый путём &9нефтеобработки&r или путём обезвоживания &9этанола&r &9серной кислотой&r в &3химическом реакторе&r."
+				"Выбирайте метод, что вам больше подходит:"
 				""
-				"- The &9Ethanol&r route allows you to use your existing &6Sugarcane&r farm to produce &9Ethylene&r. However, the recipes require &bMedium Voltage&r machines to run."
+				"— Путь &9этанола&r позволит задействовать существующую вашу ферму &6сахарного тросника&r для производства этилена. Однако, рецепты требуют для работы машины &bсреднего напряжения&r."
 				""
-				"- The &9Oil Processing&r route requires &2only LV machines&r, but you will have to source &9Oil&r, or its variants, from somewhere. &2Severely Steam-Cracked Light Fuel&r is most efficient with &9Raw Oil, Oil and Heavy Oil&r. &2Severely Steam-Cracked Naphtha&r is more efficient when you are using &9Light Oil&r."
+				"— Путь &9нефтеобработки&r требует минимум &2машины СН&r, но вам нужно будет найти источник &9нефти&r или её вариаций. &2Лёгкое топливо прошедшее жёсткий крекинг паром&r самый эффективный вариант для &9сырой, средней и тяжёлой нефти&r. &2Нафта прошедная жёсткий крекинг паром&r более эффективна если используете &9лёгкую нефть&r."
 				""
-				"It is an extremely important chemical in the production of plastics, as you'll need &9Ethylene&r in your production of &9Polyethylene (PE)&r, &9Polyvinyl Chloride (PVC)&r, and can be used in the production of &9Styrene-Butadiene Rubber (SBR)&r, the best form of rubber."
+				"Это очень важный химикат в производстве пластика, так как &9этилен&r нужен в создании &9полиэтилена (ПЭ)&r, &9поливинил хлорида (ПВХ)&r и для производства &9стирол-бутадиеновой резины&r, лучшей формы резины."
 			]
 			id: "153BDCAE4D1CC407"
 			rewards: [{
@@ -1565,16 +1567,16 @@
 				item: "gtceu:ethylene_bucket"
 				type: "item"
 			}]
-			title: "&2Ethylene"
+			title: "&2Этилен"
 			x: 16.0d
 			y: 21.0d
 		}
 		{
 			dependencies: ["383FADC5E8BC4E91"]
 			description: [
-				"&6Sulfur&r will be used in a variety of upcoming chemical reactions."
+				"&6Сера&r скоро понадобится в различных химических реакциях."
 				""
-				"It can be electrolyzed easily from &6Sphalerite&r (which also provides &6Gallium&r), &6Cinnabar&r, and &6Pyrite&r. Alternately, Sulfur can be acquired through &bHNN&r- look into that quest line if you haven't already."
+				"Её можно электролизировать из &6сфалерита&r (в котором содержится &6галий&r), &6киновари&r и &6пурита&r. Серу также можно получить через &bHNN&r (Hostile Neural Networks) — ознакомьтесь с этой цепочкой квестов."
 			]
 			id: "0E010F5348FC89BF"
 			rewards: [{
@@ -1588,18 +1590,18 @@
 				item: "gtceu:sulfur_dust"
 				type: "item"
 			}]
-			title: "Sulfur"
+			title: "Сера"
 			x: 16.0d
 			y: 19.0d
 		}
 		{
 			dependencies: ["5357A16B5BF62C96"]
 			description: [
-				"Note: this quest accepts both LV and MV Brewery."
+				"&oЗамечание: этот квест принимает варочную машину НН и СН. "
 				""
-				"You can turn &6Plant Balls&r and other various &6sugary crops&r into &9Biomass&r with a &3Brewery&r. Biomass is the first step towards making Plastic in the form of &9Polyethylene&r."
+				"&6Комки биомассы&r и прочая &6сахарная культура&r может быть переработанна в &9биомассу&r в &3варочной машине&r. Биомасса — это первый шаг к созданию пластика в форме &9полиэтилена&r."
 				""
-				"The Brewery is a very very slow machine, but it requires almost no power. Building &2many Breweries&r is necessary to brew enough Biomass for plastics. &2An alternative and more resource efficient way of making biomass is with a Pyrolyse Oven, Water, and Bio Chaff."
+				"Варочная машина очень очень медленная, но почти не требует энергии. Для стабильного производства биомассы для пластика важно заиметь &2множество варочных машин&r. &2Алтернативой и более эффективным по ингридиентам способом создания биомассы является пиролизная печь, вода и мякина."
 			]
 			icon: "gtceu:mv_brewery"
 			id: "383FADC5E8BC4E91"
@@ -1627,7 +1629,7 @@
 						]
 					}
 				}
-				title: "Brewery"
+				title: "Варочная машина"
 				type: "item"
 			}]
 			x: 16.0d
@@ -1636,9 +1638,9 @@
 		{
 			dependencies: ["5C4E189A3E401566"]
 			description: [
-				"Here comes the chemistry."
+				"И вот, начинается химия."
 				""
-				"It might seem crazy right now, but you'll want a dedicated &3Chemical Reactor&r for pretty much every chemical you want to process. You probably want to hold off on doing that until you've got a solid base of autocrafting though... it stings a lot less when you can just request crafts of Chemical Reactors from your AE2 system."
+				"Сначала может показаться как безумие, но вам точно понадобится отдельный &3химический реактор&r практически для каждого химиката, который вы будете производить. Но по началу вам, наверное, захочется отложить это дело до того, как будет какая-то основа автокрафта... жить гораздо проще, когда можно просто заказать компоненты химического реактора через систему АЕ2."
 			]
 			id: "5357A16B5BF62C96"
 			rewards: [{
@@ -1652,22 +1654,22 @@
 				item: "gtceu:mv_chemical_reactor"
 				type: "item"
 			}]
-			title: "MV Chemical Reactor"
+			title: "Химический реактор СН"
 			x: 16.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["5357A16B5BF62C96"]
 			description: [
-				"&oThis is an important part of a Processing Line. Visit the Processing Lines Tab to have more info, useful tips and a visual representation of how to passively automate this."
+				"&oЭто важная часть производственного процесса. Загляните во вкладку производственных процессов для большей информации, полезных подсказок и визуального представления пассивной автоматизации."
 				""
-				"&6Uraninite Ore&r is the first source of &6Pulsating Dust&r but is not a very good one in the long term. Instead you should make &6Resonant Clathrates&r, which are an infinitely-renewable and effective source of Pulsating Dust."
+				"&6Уранитит&r — первый источник &6пульсирующей пыли&r, но он не подойдёт для длительного использования. Взамен лучше создавать &6резоринующие клатраты&r, которые бесконечно-возобновляемые и идеально подходят для создания пульсирующей пыли."
 				""
-				"Resonant Clathrates are made by melting &6Ender Pearls&r with a &3Fluid Extractor&r into &9Resonant Ender&r, then mixing that with &6Nether Quartz&r in an MV or better &3Chemical Reactor&r. Smelting this clathrate gives Pulsating Dust."
+				"Резонирующие клатраты создаются путём плавления &6жемчуга энедера&r в &3экстракторе&r в &9резонирующий эндер&r, затем смешать его с &6адским кварцем&r в &3химическом реакторе&r СН или выше. Плавление этого клатрата даёт пульсирующую пыль."
+				"{@pagebreak}"
+				"Теперь, когда у вас есть резонирующие клатраты, всё необходимое для создания &6пульсирующей пыли&r может быть автоматизировано в испключительно положительном цикле. Проектирование этого процесса — первый шаг к автоматизации &bHostile Neural Networks&r, который &eявляется главным источников важных материалов до конца сборки&r."
 				""
-				"With Resonant Clathrates now accessible, everything you need for crafting &6Pulsating Polymer Clay&r can be automated in a net-positive loop.&r Doing so is the first step in automation of &bDeep Mob Evolution&r, which is &ea primary source of important materials for the rest of the pack&r."
-				""
-				"The exact implementation is up to you. Make use of the various LV and MV machines you have, and look through &bEMI&r and the Processing Lines Tab for the ways to get infinite sources of each ingredient (like &aEnderman Models&r for pearls)."
+				"Вам решать как это реализовать. Воспользуйтесь различными машиными НН и СН, а также проверьте &bEMI&r и вкладку производственного процесса, чтобы найти способы автоматизировать бесконечный источник каждого ингредиенты (например, &aмодель эндермена&r для жемчужин).&r"
 			]
 			disable_toast: true
 			id: "0C10EC03A01E7334"
@@ -1709,15 +1711,15 @@
 		{
 			dependencies: ["6A262AA410619C23"]
 			description: [
-				"&oNote: this quest accepts both LV and MV Distillery. &2"
+				"&oЗамечание: этот квест принимает дистиллятор НН и СН."
 				""
-				"If you are distilling Ethanol, you now need an MV Distillery."
+				"&2Если вы собираетесь дистиллировать этанол, то вам нужен дистиллятор СН.&r"
 				""
-				"&rThe &3Distillery&r is a single-block machine which only outputs one distillate out of several and &cdiscards&r the rest. You can use this now to get &9Ethanol&r from &9Biomass&r, or to selectively distill &9Oil&r in multiple steps to &9Ethylene&r. Its advantage over the full Tower, apart from cost, is its &9energy efficiency&r. Therefore, it is recommended for fluids with only one useful output, like &9Biomass&r, &9Diluted Sulfuric Acid&r, and &9Diluted Hydrochloric Acid&r."
+				"&3Дистиллятор&r — это одноблочная машина, которая производит только один дистиллируемый продукт и &cуничтожает&r остальные. Сейчас с его помощью можно получать &9этанол&r из &9биомассы&r или выборочно дистиллировать &9нефть&r в несколько этапов для получения &9этилена&r. Его преимущество над полноценной башней, не считая стоимости, это его &9энергоэффективность&r. Поэтому он рекомендуем для жидкостей с одним полезным результатом, например, &9биомасса&r, &9разбавленная серная кислота&r и &9разбавленный хлороводород&r."
 				""
-				"However, the Distillation Tower is recommended for advanced chemistry, as most things have more than one important output: &9Fermented Biomass&r, &9Charcoal Byproducts&r from your &3Pyrolyse Oven&r, and the entire line of petrochemicals from &9Oil&r, to name a few."
+				"Однако, для продвинутой химии рекомендуется ректификационная колонна, так как большинство сырья имеет полезные продукты: &9ферментированная биомасса&r, &9побочные продукты переработки древесного угля&r из &3пиролизной печи&r, и целый ряд петрохимикатов из &9нефти&r."
 				""
-				"You're going to need it soon!"
+				"Скоро он вам понадобится!"
 			]
 			id: "48E83C38B37DFEE6"
 			rewards: [{
@@ -1754,21 +1756,21 @@
 		{
 			dependencies: ["48E83C38B37DFEE6"]
 			description: [
-				"Petrochemistry is the category of organic chemistry pertaining to petroleum, otherwise known as &9Oil&r."
+				"Нефтехимия — это категория органической химии описывающая механизм превращения углеводородов &9нефти&r в полезные продукты и сырья."
 				""
-				"&bGregTech&r's petrochemistry may seem daunting at first, given the sheer number of chemicals and processing options, but it's actually easier to get into than you think."
+				"Нефтехимия &bGregTech&r может показаться пугающей на первый взгляд, учитывая количество различных химикатов и вариантов процессов, но на самом деле она проще чем кажется."
 				""
-				"Oil is the starting point, and can be found in several variants which you can pump from finite natural wells on the Overworld, as well as coming renewably from &6Oilsands Ore&r and &6Soul Sand&r, and directly in liquid form from a &3Fluid Rig&r."
+				"Всё начинается с нефти. Её можно встретить в разных вариантах: в ограниченном количестве из природных нефтяных скважин на поверхности, а также в виде возобновляемого источника из &6руды нефтеносных песков&r и &6песка душ&r, и напрямую в жидкой форме из &3жидкостной буровой установки&r."
 				""
-				"&2The Fluid Rig can also harvest Raw Oil, Heavy Oil and Light Oil depending on your fluid vein. Raw Oil is similar to Oil, giving the same ratios when distilled but needing double the fluid. Heavy Oil and Light Oil give different ratios when distilled.&r "
+				"&2Буровая установка может выкачивать сырую, тяжёлую и лёгкую нефть в зависимости от жидкостной жилы. Сырая нефть схожа со средней нефтью, имея схожий коэффициент дистиляции, но требует вдвое больше жидкости. Тяжёлая и лёгкая нефть имеют различную концентрацию дистиллятов.&r"
 				""
-				"Start off by distilling the Oil. This will result in &9Sulfuric Heavy Fuel&r, &9Sulfuric Light Fuel&r, &9Sulfuric Naphtha&r, and/or &9Sulfuric Gas&r."
+				"Начните с дистилляции нефти. На выходе получится &9сернистое тяжёлое топливо&r, &9сернистое лёнкре топливо&r, &9сернистая нафта&r и/или &9серный газ&r."
 				""
-				"These will all need to be hydrodesulfurized using &9Hydrogen&r in a &3Chemical Reactor&r or &2Oil Cracking Unit&r, which produces the non-Sulfuric versions."
+				"Всё это необходимо гидрообессерить с помощью &9водорода&r в &3химическом реакторе&r или в &2крекинговом заводе&r, который производит варианты без серы."
 				""
-				"All of these products are useful, so figure out how you want to store the variety and large quantities of fluids."
+				"Все эти продукты полезны, так что найдите способ хранить это всё с большом количестве."
 				""
-				"The upcoming quests will guide you through the basics of petrochemistry. Once you've mastered that, feel free to explore further."
+				"Следующие квесты обучат вас основам нефтехимии. Освоив её вы спокойно сможете её исследовать дальше."
 			]
 			icon: "gtceu:oil_bucket"
 			id: "024C0A84C054ED4B"
@@ -1776,18 +1778,18 @@
 				id: "30E326A41DA04A3B"
 				type: "checkmark"
 			}]
-			title: "&2Navigating Petrochem"
+			title: "&2Разбираемся в нефтехимии"
 			x: 17.5d
 			y: 22.5d
 		}
 		{
 			dependencies: ["5B0200011DF8E1B6"]
 			description: [
-				"You'll need &9Chlorine&r at this point. It is an important ingredient in many chemical processes, and you can currently get it from electrolyzing either &6Salt&r or &6Rock Salt&r."
+				"С этого момента вам нужен будет &9хлор&r. Это важный игнридиент в большинстве химических процессах и его сейчас можно получить путём электролиза &6соли&r или &6каменной соли&r."
 				""
-				"&2Later, you can use Fluid Rigs or break down Ghast Tears to obtain Salt Water, and electrolyze it to Chlorine. "
+				"&2Позже, вы можете выкачивать солёную воду с помощью жидкостной буровой установки или получать из слёз Гаста, а затем электролизировать её в хлор.&r"
 				""
-				"&rUsing Fluid Rigs is the best way to obtain mass amounts of Chlorine."
+				"Жидкостная буравая установка — это лучший способ получить огромное количество хлора."
 			]
 			id: "10722CBC4DAD28F4"
 			rewards: [{
@@ -1801,7 +1803,7 @@
 				item: "gtceu:chlorine_bucket"
 				type: "item"
 			}]
-			title: "&2Chlorine"
+			title: "&2Хлор"
 			x: 14.5d
 			y: 19.0d
 		}

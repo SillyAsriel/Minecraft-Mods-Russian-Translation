@@ -56,13 +56,13 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Circuits along this line are LV, and can all be substituted in recipes."
+				"Схемы на этой стороне относятся к низкому напряжению и они все взаимозаменяемы в рецептах."
 				""
-				"&2Electronic Circuits&r are the worst in terms of cost and effort required to produce, but you have to start with something."
+				"&2Электросхемы&r самые худшие в плане цены и усилий на их создание, но с чего-то нужно начинать."
 				""
-				"&2Integrated Circuits&r are the middle layer between &2Electronic Circuits and Microprocessors.&r"
+				"&2Интегральные схемы&r это середина между &2электросхемами и микропроцессорами&r."
 				""
-				"And finally, &2Microprocessors&r, which take the lowest effort."
+				"И наконец, &2микропроцессоры&r, на которые уходит меньше всего усилий."
 			]
 			icon: "gtceu:lv_machine_hull"
 			id: "5B6811964444497F"
@@ -84,7 +84,7 @@
 				title: "Any #gtceu:circuits/lv"
 				type: "item"
 			}]
-			title: "LV Circuits"
+			title: "Схемы Низкого Напряжения"
 			x: -8.0d
 			y: -5.5d
 		}
@@ -96,9 +96,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Circuits along this line are MV, and can all be substituted in recipes."
+				"Схемы на этой стороне относятся к среднему напряжению и они все взаимозаменяемы в рецептах."
 				""
-				"The pattern stays the same: the rightmost circuit comes in larger quantities and is overall easier to produce."
+				"Шаблон остаётся тот же: по трудоёмкости создания слева направо от сложного к простому."
 			]
 			icon: "gtceu:mv_machine_hull"
 			id: "1510DC51CDC3F609"
@@ -119,7 +119,7 @@
 				title: "Any #gtceu:circuits/mv"
 				type: "item"
 			}]
-			title: "MV Circuits"
+			title: "Схемы Среднего Напряжения"
 			x: -8.0d
 			y: -4.0d
 		}
@@ -1926,7 +1926,7 @@
 		}
 		{
 			dependencies: ["27FAD6A8FCFAB543"]
-			description: ["&2Two Integrated Circuits&r and various other components will create a &2Good Integrated Circuit."]
+			description: ["&2Две интегральиные схемы&r и другие различные компоненты вместе собираются в &2хорошую интегральную схему&r."]
 			id: "2AC61192BCD459F2"
 			rewards: [{
 				id: "447C6A40A5BA0F42"
@@ -1939,7 +1939,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			title: "&2The Second Tier Two Circuits"
+			title: "&2Вторая схема второго уровня"
 			x: -5.0d
 			y: -4.0d
 		}
